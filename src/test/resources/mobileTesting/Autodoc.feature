@@ -14,9 +14,9 @@ Feature: Autodoc uygulamasi gorevleri yerine getirilir
     * Brand bolumunden ilk marka secilir
     * "Apply" butonuna basilir
     * Listeden ilk urun secilir
-    * Lastik detay sayfasindan ADD butonuna basilarak urunler sepete eklenir
+    * Detay sayfasindan ADD butonuna basilarak urunler sepete eklenir
     * Urunun sepete eklendigi dogrulanir
-    * Kullanici uygulamayi kapatir
+
 
   @auto
   Scenario: Autodoc uygulamasi kategorilerinden Electrics secimi yapilarak alisveris sepetine eklendigi dogrulanir
@@ -27,10 +27,10 @@ Feature: Autodoc uygulamasi gorevleri yerine getirilir
     * "FORD" secilir
     * "B-Max (JK8) (10.2012 - ...)" secilir
     * "1.6 TDCi (70 KW / 95 PS) (10.2012 - ...)" secilir
-#    * "H15" secilir
-#    * "Apply" butonuna basilir
-    * Listeden ilk urun secilir
-    * Lastik detay sayfasindan ADD butonuna basilarak urunler sepete eklenir
+    * "H15" secilir
+    * "Apply" butonuna basilir
+    * Listedeki ilk urun secilir
+    * Detay sayfasindan ADD butonuna basilarak urunler sepete eklenir
     * Urunun sepete eklendigi dogrulanir
 
 

@@ -71,8 +71,8 @@ public class AutodocStep {
         autodocPage.tyreListFirstItem.click();
     }
 
-    @Given("Lastik detay sayfasindan ADD butonuna basilarak urunler sepete eklenir")
-    public void lastik_detay_sayfasindan_add_butonuna_basilarak_urunler_eklenir() {
+    @Given("Detay sayfasindan ADD butonuna basilarak urunler sepete eklenir")
+    public void detay_sayfasindan_add_butonuna_basilarak_urunler_eklenir() {
         ReusableMethods.wait(2);
         autodocPage.addButton.click();
     }
@@ -98,6 +98,12 @@ public class AutodocStep {
     public void secilir(String secim) {
         ReusableMethods.wait(2);
         ReusableMethods.scrollWithUiScrollableAndClick(secim);
+    }
+
+    @Given("Listedeki ilk urun secilir")
+    public void listedeki_ilk_urun_secilir() throws InterruptedException {
+        ReusableMethods.wait(1);
+        ReusableMethods.koordinatTiklamaMethodu(797,615);
     }
 
 
